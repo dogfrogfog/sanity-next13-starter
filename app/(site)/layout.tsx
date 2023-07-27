@@ -1,6 +1,7 @@
 import "../globals.css";
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,15 +19,17 @@ export default async function RootLayout({
         <header className="flex items-center justify-between">
           <Link
             href="/"
-            className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent"
+            className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent font-bold"
           >
-            New Application
+            Logo
           </Link>
           <div className="flex items-center gap-5 text-sm text-gray-600">
-            {["about", "pricing"].map((page) => (
-              <Link href={page} key={page} className="hover:underline">
-                {page}
-              </Link>
+            {["about", "about", "about"].map((page) => (
+              <Button>
+                <Link href={page} key={page} className="hover:underline">
+                  {page}
+                </Link>
+              </Button>
             ))}
           </div>
         </header>

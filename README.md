@@ -1,4 +1,4 @@
-This is a [Sanity v3](https://www.sanity.io/) x [Next 13.4](https://nextjs.org/) (app router) x [Tailwind CSS](https://tailwindcss.com/) x TypeScript starter
+This is a [Sanity v3](https://www.sanity.io/) x [Next 13.4](https://nextjs.org/) (app router) x [Tailwind CSS](https://tailwindcss.com/) x [Shadcn/UI](https://ui.shadcn.com) starter
 
 ## Fork and start your next + sanity project for minutes
 
